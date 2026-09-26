@@ -155,7 +155,7 @@ const CONFIG = {
     MAX_CONSECUTIVE_LOSSES: 9,
 
     // ── Trading Sessions (synthetics trade 24/7) ─────────────
-    USE_TRADING_SESSIONS: true,
+    USE_TRADING_SESSIONS: false,
     SESSIONS: [
         { name: 'LONDON_OPEN', start: 1, end: 17 },
         { name: 'NY_OPEN', start: 12, end: 23 },
